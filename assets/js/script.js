@@ -36,6 +36,6 @@ window.addEventListener("mousemove", event => {
 
         parallaxElements[i].animate({
             transform: `translate(${movementX}px, ${movementY}px)`
-        },   {duration: 500, fill: "forwards"});
+        },   {duration: 500, fill: "auto"});
     }
 })
